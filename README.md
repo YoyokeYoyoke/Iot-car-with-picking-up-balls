@@ -264,5 +264,12 @@ def video_feed():
 Do streaming & controlling on an html website (by flask webserver)
 ==================================================================
 Write the codes above about app.py into your app.py, and the all codes above about index.html into index.html.
-Then you can run the car!
+Then you can run the car by enter this into your terminal.
+```
+sudo python3 app.py
+```
+Then you may see this.
+![image](https://user-images.githubusercontent.com/86145342/148650177-eee5e85b-7dd8-4300-9905-a96caee1f42a.png)
+
+Open a webrower, and enter the url showing on your VNC screen. 
 
