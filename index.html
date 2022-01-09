@@ -1,0 +1,76 @@
+<html>
+  
+  <head>
+    
+    <title>Video Streaming Demonstration</title>        
+   
+  </head>
+       
+  <body>
+       <div align="center">
+          <img src="{{ url_for('video_feed') }}" width="50%" />
+       </div>
+       
+          
+          <table align="center">
+          <tr>
+            <td></td>
+            <td>
+             <input type="button" value=" go " onclick="location.href='/go'"> 
+            </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>
+              <input type="button" value="left" onclick="location.href='/left'"> 
+            </td>
+
+            <td>
+              <input type="button" value="stop" onclick="location.href='/stop'"> 
+            </td>
+            <td>
+              <input type="button" value="right" onclick="location.href='/right'"> 
+            </td>
+          </tr>
+           <tr>
+            <td></td>
+            <td>
+             <input type="button" value="back" onclick="location.href='/back'"> 
+            </td>
+            <td></td>
+          </tr>
+          
+        
+          
+           <tr>
+            <td>
+              <input type="button" value="  up  " onclick="location.href='/up'"> 
+            </td>
+            <td></td>
+             <td>
+              <input type="button" value="down" onclick="location.href='/down'"> 
+            </td>
+          </tr>
+         
+         
+          <tr>
+           
+            <td>
+              <input type="button" value="catch" onclick="location.href='/catch'"> 
+            </td>
+            <td></td>
+             <td>
+              <input type="button" value="throw" onclick="location.href='/throw'"> 
+            </td>
+          </tr>
+          
+        
+         
+        
+    </table>
+  </body>
+     
+  
+    
+</html>
