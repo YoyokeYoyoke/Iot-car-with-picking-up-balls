@@ -273,3 +273,6 @@ Then you may see this.
 
 Open a webrower, and enter the url showing on your VNC screen. 
 
+DEMO CLIP
+=========
+*[https://youtu.be/1jeaqI7l7Lk](https://youtu.be/1jeaqI7l7Lk)*
